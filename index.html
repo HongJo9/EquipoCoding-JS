@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Tercer nivel</h1>
-    <script src="script.js"></script>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Año Bisiesto</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- calculadora de año bisiesto -->
+    <div class="calculadora-bisiesto">
+      <h1>Calculadora de Año Bisiesto</h1>
+      <label>Introduce un año: </label>
+      <input type="number" id="entradaAnio" />
+      <button id="Comprobar">Comprobar</button>
+      <p id="resultado"></p>
+      <script src="script.js"></script>
+    </div>
+    <!-- calculadora numerica -->
+    <div class="calculadora-numerica">
+      <h1>Calculadora</h1>
+      <label for="x">Número 1:</label>
+      <input type="number" id="x" />
+      <br />
+      <label for="y">Número 2:</label>
+      <input type="number" id="y" />
+      <br />
+      <label for="operacion">Operación:</label>
+      <select id="operacion">
+        <option value="sumar">Sumar</option>
+        <option value="restar">Restar</option>
+        <option value="multiplicar">Multiplicar</option>
+        <option value="dividir">Dividir</option>
+        <option value="exponenciar">Exponenciar</option>
+        <option value="residuo">Residuo</option>
+      </select>
+      <br />
+      <button id="calcular">Calcular</button>
+      <p id="resultado2"></p>
+
+      <script src="script.js"></script>
+    </div>
+    <!-- Calculo de precio -->
+    <div class="calculadora-pedido">
+      <h1>Calculadora de Pedido</h1>
+      <label for="producto">Producto:</label>
+      <select id="producto">
+        <option value="refresco">Refresco</option>
+        <option value="cerveza">Cerveza</option>
+        <option value="papitas">Papitas</option>
+      </select>
+      <br />
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" />
+      <br />
+      <button id="calculo3">Calcular Precio Total</button>
+      <p id="resultado3"></p>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
 </html>

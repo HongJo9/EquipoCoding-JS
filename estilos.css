@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Protest+Strike&display=swap');
+body {
+    font-family: "jost", sans-serif;
+    background: linear-gradient(to left, #e0850e, #a52626);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .calculadora-bisiesto {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .calculadora-bisiesto h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .calculadora-bisiesto label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .calculadora-bisiesto input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calculadora-bisiesto button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calculadora-bisiesto button:hover {
+    background-color: #cc0000;
+  }
+  
+  .calculadora-bisiesto p {
+    margin-top: 10px;
+  }
+  
+  .calculadora-numerica,
+  .calculadora-pedido {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 50px;
+  }
+  
+  .calculadora-numerica h1,
+  .calculadora-pedido h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .calculadora-numerica label,
+  .calculadora-pedido label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .calculadora-numerica input[type="number"],
+  .calculadora-numerica select,
+  .calculadora-pedido input[type="number"],
+  .calculadora-pedido select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calculadora-numerica button,
+  .calculadora-pedido button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calculadora-numerica button:hover,
+  .calculadora-pedido button:hover {
+    background-color: #cc0000;
+  }
+  
+  .calculadora-numerica p,
+  .calculadora-pedido p {
+    margin-top: 10px;
+  }
+  
